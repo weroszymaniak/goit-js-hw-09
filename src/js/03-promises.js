@@ -1,6 +1,6 @@
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
-formEl = document.querySelector('.form');
+const formEl = document.querySelector('.form');
 
 function createPromise(position, delay) {
   return new Promise((resolve, reject) => {
