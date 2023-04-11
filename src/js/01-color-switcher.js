@@ -29,5 +29,5 @@ function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215).toString(16)}`;
 }
 
-startBtn.addEventListener('click', changeBodyColor());
-stopBtn.addEventListener('click', stopBodyColor());
+startBtn.addEventListener('click', changeBodyColor);
+stopBtn.addEventListener('click', stopBodyColor);
